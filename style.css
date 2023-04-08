@@ -105,3 +105,18 @@ footer{
       color: #fff;
       background-color: #000;
   }
+  .comment{
+      height: 69vh;
+      width: 290px;
+      background-color: #fff;
+      position: absolute;
+      top: 125px;
+      right: 280px;
+      border-radius: 20px;
+      visibility: hidden;
+      opacity: 0;
+  }
+  .show{
+    visibility: visible;
+    opacity: 1; 
+  }
