@@ -32,5 +32,17 @@
         <i class="fa-solid fa-music icon"></i>
     </footer>
 </body>
+    <script>
+    let x = document.querySelector('.fa-thumbs-up');
+    let y = document.querySelector('.fa-thumbs-down');
+    x.onclick = ()=>{
+    x.classList.add("active");
+    y.classList.remove("active");
+}
+    y.onclick = ()=>{
+        x.classList.remove("active");
+    y.classList.add("active");
+}
+</script>
 <script src="https://kit.fontawesome.com/9e26e8744c.js" crossorigin="anonymous"></script>
 </html>
