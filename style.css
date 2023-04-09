@@ -199,5 +199,16 @@ footer{
     width: 50%;
     flex-direction: column;
 }
+.community_btn{
+    background-color: #fff;
+    border: none;
+}
+.community_btn .icon{
+    margin: 2px;
+}
+.community_btn:hover{
+    background-color: #fff;
+    border: none;
+}
 
 
