@@ -210,5 +210,15 @@ footer{
     background-color: #fff;
     border: none;
 }
+#next_btn{
+    margin-top: 5px;
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+}
 
 
